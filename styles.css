@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+
+.title {
+  font-size: 4em;
+  color: gold;
+}
+
+.peopleSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.characterContainer {
+  background-color: gray;
+  margin: 2%;
+  color: white;
+}
+
+.characterName {
+  font-size: 1.8em;
+  color: gold;
+}
+
+.planetSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.planetName {
+  font-size: 1.8em;
+  color: gray;
+}
+
+.planetContainer {
+  background-color: gold;
+  margin: 2%;
+  color: white;
+}
